@@ -59,6 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libfpnav.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpnav.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
+    vendor/xiaomi/mido/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mido:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mido \
+    vendor/xiaomi/mido/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mido.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_mido.rc \
     vendor/xiaomi/mido/proprietary/vendor/lib/libChamomilePA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libChamomilePA.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libactuator_dw9763_ofilm_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763_ofilm_imx258.so \
